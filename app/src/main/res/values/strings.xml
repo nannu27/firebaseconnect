@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">firebaseconnect</string>
+
+    <string name="enter_username">Enter User Name</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="login">Login</string>
+    <string name="registration">Ragistration</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="redirect_to_login">Goto Login</string>
+    <string name="redirect_to_registration">Goto Registration</string>
+    <string name="Add_PG">Add PG</string>
+    <string name="add_second_pg">Add second PG</string>
+    <string name="loading">Loading..</string>
+
+
+    <string name="rentee">Rentee Registration</string>
+
+
+    <string name="enter_fname">first name</string>
+    <string name="enter_lname">last name</string>
+    <string name="enter_gender">Gender:</string>
+    <string name="enter_father_name">Fathers name</string>
+    <string name="enter_dob">Date of birth</string>
+    <string name="enter_mobile">Mobile Number</string>
+    <string name="enter_pmobile">Parents Mobile Number</string>
+    <string name="enter_occupation">Occupation</string>
+    <string name="enter_Permanent_address">Permanent Address</string>
+    <string name="enter_office_address">Working Address</string>
+    <string name="upload_id_proof">Upload id proof</string>
+    <string name="upload_photo">Upload photo</string>
+    <string name="enter_pg_name">PG Name/Number</string>
+    <string name="enter_room_number">Room name/number</string>
+    <string name="enter_bed_number">bed number</string>
+    <string name="enter_whatsapp_number">WhatsApp Number</string>
+
+
+    <string name="male">Male</string>
+    <string name="fmale">Female</string>
+    <string name="submit">Save Details</string>
+    <string name="clear">Clear</string>
+
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="pg_name">PG name</string>
+
+    <string name="details">Rentee Details</string>
+    <string name="profile">Profile</string>
+    <string name="id">Id Proof</string>
+
+    <string name="first">First Name:</string>
+    <string name="last">Last Name:</string>
+    <string name="gender">Gender:</string>
+    <string name="father">Father Name:</string>
+    <string name="mobile">Mobile no.:</string>
+    <string name="parents">Parents no.:</string>
+    <string name="occupation">occupation:</string>
+    <string name="p_add">Permanent Add.:</string>
+    <string name="c_add">Current Add.:</string>
+    <string name="PG_name">Pg Name:</string>
+    <string name="Room_number">Room Number:</string>
+    <string name="Bed_number">Bed Number:</string>
+    <string name="whatsapp_number">WhatsApp Number:</string>
+
+    <string name="update">Update</string>
+    <string name="call">Call</string>
+    <string name="pdf">Generate Pdf</string>
+    <string name="massage">Rent Reminder</string>
+
+    <string name="list">Rentee List</string>
+    <string name="show">Rentee ID Proof</string>
+
+    <string name="reload">Reload</string>
+    <string name="about">About me</string>
+    <string name="dev1">Developed by: BCTUBE</string>
+    <string name="email1">Uic.mca8152@gmail.com</string>
+    <string name="email_notes">Click on Email address to send email</string>
+    <string name="delete">Delete all data</string>
+    <string name="Update">Update Rentee Details</string>
+    <string name="contact">contact us</string>
+    <string name="other">others</string>
+    <string name="logout">logout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

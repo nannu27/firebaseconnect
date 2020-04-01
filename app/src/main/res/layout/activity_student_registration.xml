@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.student_registration"
+    android:orientation="vertical">
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/euserid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="userid"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <EditText
+                    android:id="@+id/renti_fname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_fname"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <EditText
+                    android:id="@+id/renti_lastname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_lname"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/enter_gender"
+                        android:textColor="@color/black"
+                        android:textSize="25sp" />
+
+                    <RadioGroup
+                        android:id="@+id/renti_gender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/renti_male_gender"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/male"
+                            android:textSize="25sp" />
+
+                        <RadioButton
+                            android:id="@+id/renti_fmale_gender"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/fmale"
+                            android:textSize="25sp" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+
+                <EditText
+                    android:id="@+id/renti_father_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_father_name"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <EditText
+                    android:id="@+id/renti_mobile_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_mobile"
+                    android:inputType="phone"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <EditText
+                    android:id="@+id/renti_whatsapp_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_whatsapp_number"
+                    android:inputType="phone"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <EditText
+                    android:id="@+id/renti_parents_mobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_pmobile"
+                    android:inputType="phone"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <EditText
+                    android:id="@+id/renti_occupation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_occupation"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <EditText
+                    android:id="@+id/renti_permanet_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_Permanent_address"
+                    android:inputType="textPostalAddress"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+
+                <EditText
+                    android:id="@+id/renti_office_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_office_address"
+                    android:inputType="textPostalAddress"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <EditText
+                    android:id="@+id/renti_pg_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_pg_name"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <EditText
+                    android:id="@+id/renti_room_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_room_number"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    tools:ignore="TextFields" />
+
+                <EditText
+                    android:id="@+id/renti_bed_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/enter_bed_number"
+                    android:inputType="text"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    tools:ignore="TextFields" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/renti_profile"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/ic_id_card" />
+                        <ImageView
+                            android:id="@+id/mypic"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/ic_man" />
+
+                        <Button
+                            android:id="@+id/renti_id_button"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:background="@color/colorPrimary"
+                            android:text="@string/upload_id_proof"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="100dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/renti_submit"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/submit" />
+
+                    <Button
+                        android:id="@+id/renti_clear"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/clear" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
